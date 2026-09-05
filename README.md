@@ -6,6 +6,8 @@
 
 在线访问：[Risk Video Frontier Literature](https://bboylyg.github.io/Risk-Video-Frontier-Literature/)
 
+[![风控前沿文献追踪系统界面截图](assets/system-overview.png)](https://bboylyg.github.io/Risk-Video-Frontier-Literature/)
+
 ## 研究范围
 
 - 视频 Transformer 通用表示、异常视频识别、少样本动作与异常学习；
