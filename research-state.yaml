@@ -1,0 +1,27 @@
+project:
+  title: "风控前沿文献追踪系统"
+  updated: "2026-09-05"
+  status: "survey_delivered_with_explicit_verification_debt"
+  scope_interpretation: "三个近期主线，加独立长期图建模专题"
+  tracks:
+    - "A: 视频通用表示、异常检测、少样本学习"
+    - "B: 图像视频 evasion、文字干扰、OOD"
+    - "C: 8B 内候选模型、微调、压缩与高效推理"
+    - "D: 长期用户行为图、GraphLLM、多模态映射"
+artifacts:
+  database: "data/papers.json"
+  synthesis: "data/research-synthesis.json"
+  frontend: "INDEX.html"
+  report: "literature/refocused-survey.md"
+  provenance: "literature/search-provenance-2026-09-05.md"
+  previous_version: "archive/2026-09-05-before-refocus"
+experiments:
+  status: "not_run"
+  results: "TBD"
+verification:
+  policy: "摘要、定向方法核验、作者结果与本地复现分开"
+  open_items:
+    - "真实黑产滤镜的数据来源与标签保持"
+    - "各方法完整数据集和测试协议提取"
+    - "精确 checkpoint 参数、许可证、commit 与硬件适配"
+    - "长期用户行为的时间切分与业务标签"
