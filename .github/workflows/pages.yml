@@ -33,7 +33,7 @@ jobs:
         run: python scripts/validate_desk.py
 
       - name: Check generated files are committed
-        run: git diff --exit-code -- index.html INDEX.html literature/refocused literature/refocused-survey.md
+        run: git diff --exit-code -- index.html INDEX.html literature/refocused literature/refocused-survey.md literature/survey.md
 
       - name: Prepare Pages artifact
         run: |

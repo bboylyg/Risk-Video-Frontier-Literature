@@ -9,6 +9,8 @@ def main():
     assert (ROOT/'index.html').read_text(encoding='utf-8') == html
     required={'id','title','authors','year','venue','url','category','type','tags','core_contribution','technical_contribution','relevance_to_project','agent_framework','models','experimental_data','metrics','code_available','explored_dimensions','verification_status','limitations','checked_at','local_result'}
     assert papers and len({p['id'] for p in papers})==len(papers)
+    assert any(p['category'].startswith('E · 时序/外观规避') for p in papers)
+    assert (ROOT/'literature/survey.md').read_text(encoding='utf-8') == (ROOT/'literature/refocused-survey.md').read_text(encoding='utf-8')
     for p in papers:
         assert required <= p.keys(), p['id']
         assert 2020<=p['year']<=2026

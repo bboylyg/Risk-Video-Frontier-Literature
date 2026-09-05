@@ -44,3 +44,10 @@ These are selective reviews, not claims of full-paper or appendix completion.
 - data/refocused-papers.json is the 2026-09-05 research snapshot; data/papers.json is the editable canonical current database.
 - Old platform and build scripts preserved in archive/2026-09-05-before-refocus; old p001–p095 notes remain as historical material and are not counted in the new UI.
 
+## Temporal/Appearance evasion expansion
+
+新增检索围绕 `video adversarial temporal perturbation`、`frame dropping / repetition / shuffle / substitution`、`visual corruption benchmark`、`video LLM frame sampling robustness`、`adaptive keyframe sampling`、`test-time adversarial prompt tuning`、`adaptive activation steering` 与 `test-time data poisoning`。优先核验 CVF/OpenReview/arXiv 一手页面和作者仓库。
+
+新增谱系包括：MVTamperBench、THUMOS14-C/ActivityNet-v1.3-C、VQA Visual Robustness、Video-TT、VBenchComp、CVRR-ES、Video-LLM temporal consistency、AKS、KFS-Bench、R-TPT、TAPT、ASTRA、TAME、DIVE、FOCUS 与 RTTDP。2024 工作只作为直接历史基线；主体仍是 2025–2026。
+
+适用性判断没有升级为复现证据：关键帧与迭代视频搜索论文尚未在目标规避场景验证；CLIP 分类或多模态越狱防御尚未证明可迁移到少样本异常视频。所有本地结果保持 `TBD`。

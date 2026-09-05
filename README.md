@@ -13,9 +13,10 @@
 - 视频 Transformer 通用表示、异常视频识别、少样本动作与异常学习；
 - 面向异常图像和视频的 evasion attack、黑产滤镜、图文干扰与 OOD；
 - 8B 以内多模态模型的参数高效微调、量化、视觉 token 压缩与推理；
+- Temporal/Appearance Evasion Benchmark 与 Adaptive Perception Defense；
 - 长期用户行为图、GraphLLM，以及行为结构与多模态内容表示的映射。
 
-当前数据库收录 50 条精选资料。页面中的数量由本地数据计算；未知信息使用 `needs extraction`、`unknown` 或 `TBD` 标记。作者报告、本地复现结果和研究判断相互区分。
+当前数据库收录 66 条精选资料。页面中的数量由本地数据计算；未知信息使用 `needs extraction`、`unknown` 或 `TBD` 标记。作者报告、本地复现结果和研究判断相互区分。
 
 ## 页面能力
 

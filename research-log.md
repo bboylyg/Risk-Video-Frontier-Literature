@@ -32,3 +32,7 @@
 ## 2026-09-05 — Scope correction
 
 依据用户最新需求重构为三个近期方向与一个长期行为图专题。保存旧版、建立 50 条定向资料、定向核验关键方法／协议，重建离线 Research Desk。完整来源和检索路径见 literature/search-provenance-2026-09-05.md；未运行模型实验。
+
+## 2026-09-05 — Temporal/Appearance evasion expansion
+
+将 Temporal/Appearance Evasion Benchmark + Adaptive Perception Defense 拆为独立 E 类。新增 16 条一手资料并迁移 4 条直接相关工作，形成 20 条专题资料；补充标签保持、conditional ASR、短事件覆盖、触发率、额外 token、P95 延迟和测试时数据投毒检查。总库从 50 条扩展到 66 条；未运行攻击或模型实验。
